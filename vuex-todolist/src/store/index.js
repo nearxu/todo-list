@@ -36,6 +36,11 @@ const actions = {
   },
   editTodo({ commit }, { todo, value }) {
     commit("editTodo", { todo, text: value });
+  },
+  toggleAll({ state, commit }, done) {
+    state.todos.forEach(todo => {
+      commit("editTodo", { todo, done });
+    });
   }
 };
 
