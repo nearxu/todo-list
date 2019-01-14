@@ -10,7 +10,7 @@
 
 
 #less scss
-# style-loader css-loader less-loader scss scss-loader
+# style-loader css-loader less-loader scss scss-loader node-scss
 
 
 #vue
